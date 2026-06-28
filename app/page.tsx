@@ -28,6 +28,13 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative flex flex-col items-center justify-center pt-32 pb-20 px-6 bg-black text-teal-50 min-h-[65vh]">
         {/* Add a background image here with opacity */}
+        {/* <Image
+          src="/images/"
+          alt=""
+          fill
+          className="object-cover"
+          priority
+        /> */}
         <div className="z-10 text-center flex flex-col items-center">
           <h1 className="text-5xl sm:text-6xl md:text-8xl font-extrabold tracking-tight mb-6 drop-shadow-lg font-serif">
             Jackdaw
@@ -68,10 +75,10 @@ export default function Home() {
 
           {/* Image Content */}
           <div className="order-1 md:order-2 w-full flex justify-center md:justify-end">
-            <div className="aspect-[4/5] w-full max-w-md bg-stone-200 rounded-[2.5rem] overflow-hidden relative shadow-2xl transform md:rotate-2 hover:rotate-0 transition-transform duration-500">
+            <div className="aspect-[4/5] w-full max-w-md bg-stone-200 rounded-[2rem] overflow-hidden relative shadow-2xl">
               <Image
                 src="/images/lobster-pasta.jpg"
-                alt="Something good"
+                alt="Lobster pasta"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
