@@ -70,7 +70,7 @@ export default function Home() {
           <div className="order-1 md:order-2 w-full flex justify-center md:justify-end">
             <div className="aspect-[4/5] w-full max-w-md bg-stone-200 rounded-[2.5rem] overflow-hidden relative shadow-2xl transform md:rotate-2 hover:rotate-0 transition-transform duration-500">
               <Image
-                src="/images/"
+                src="/images/lobster-pasta.jpg"
                 alt="Something good"
                 fill
                 className="object-cover"
