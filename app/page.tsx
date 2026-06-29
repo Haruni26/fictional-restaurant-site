@@ -4,45 +4,22 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#030E18] font-sans selection:bg-teal-200">
-      {/* Navigation Header */}
-      <header className="absolute top-0 left-0 w-full flex items-center justify-between px-6 py-8 md:px-12 z-20 text-teal-50">
-        <div className="text-2xl font-black tracking-widest uppercase drop-shadow-md">
-          <Link href="/">Jackdaw</Link>
-        </div>
-        <nav className="hidden md:flex gap-8 font-medium tracking-wide drop-shadow-md">
-          <Link href="#menu" className="hover:text-teal-300 transition-colors">
-            Menu
-          </Link>
-          <Link href="#story" className="hover:text-teal-300 transition-colors">
-            Our Story
-          </Link>
-          <Link
-            href="#reservations"
-            className="hover:text-teal-300 transition-colors"
-          >
-            Reservations
-          </Link>
-        </nav>
-      </header>
-
       {/* Hero Section */}
-      <section className="relative flex flex-col items-center justify-center pt-32 pb-20 px-6 bg-black text-teal-50 min-h-[65vh]">
-        {/* Add a background image here with opacity */}
-        {/* <Image
-          src="/images/"
-          alt=""
+      <section className="relative flex overflow-hidden flex-col items-center justify-center pt-32 pb-20 px-6 bg-black/90 text-teal-50 min-h-[65vh]">
+        <Image
+          src="/images/dining-room.jpg"
+          alt="Main dining room"
           fill
           className="object-cover"
-          priority
-        /> */}
+        />
+
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-black/50"></div>
+
         <div className="z-10 text-center flex flex-col items-center">
           <h1 className="text-5xl sm:text-6xl md:text-8xl font-extrabold tracking-tight mb-6 drop-shadow-lg font-serif">
-            Jackdaw
+            Welcome
           </h1>
-          <p className="text-lg md:text-2xl font-light tracking-wide opacity-90 max-w-2xl">
-            Where the ocean meets the fire. Authentic island flavors served with
-            a tropical breeze.
-          </p>
         </div>
       </section>
 
