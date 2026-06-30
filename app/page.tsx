@@ -5,10 +5,11 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#030E18] font-sans selection:bg-teal-200">
       {/* Hero Section */}
-      <section className="relative flex overflow-hidden flex-col items-center justify-center pt-32 pb-20 px-6 bg-black/90 text-teal-50 min-h-[65vh]">
+      <section className="relative flex overflow-hidden flex-col items-center justify-center pt-32 pb-20 px-6 bg-black/90 min-h-[80vh]">
         <Image
-          src="/images/dining-room.jpg"
-          alt="Main dining room"
+          src="/images/outside-dining.jpg"
+          alt="Outside Dining Area"
+          loading="eager"
           fill
           className="object-cover"
         />
@@ -17,17 +18,14 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/50"></div>
 
         <div className="z-10 text-center flex flex-col items-center">
-          <h1 className="text-5xl sm:text-6xl md:text-8xl font-extrabold tracking-tight mb-6 drop-shadow-lg font-serif">
+          <h1 className="text-5xl sm:text-6xl md:text-8xl tracking-tight mb-6 drop-shadow-lg font-serif">
             Welcome
           </h1>
         </div>
       </section>
 
       {/* Opening Section */}
-      <section
-        id="story"
-        className="bg-[#FAF8F5] py-24 md:py-32 transition-colors duration-500"
-      >
+      <section className="bg-[#FAF8F5] py-20 md:py-28 transition-colors duration-500">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
           {/* Text Content */}
           <div className="text-center md:text-left order-2 md:order-1">
@@ -44,7 +42,7 @@ export default function Home() {
 
             <Link
               href="#menu"
-              className="inline-block px-8 py-4 bg-black text-white rounded-full font-semibold tracking-wide hover:bg-teal-700 hover:shadow-lg transition-all duration-300"
+              className="inline-block px-8 py-4 bg-black text-white rounded-full font-semibold tracking-wide hover:bg-blue-300 hover:shadow-lg transition-all duration-300"
             >
               Explore Our Menu
             </Link>
@@ -52,7 +50,7 @@ export default function Home() {
 
           {/* Image Content */}
           <div className="order-1 md:order-2 w-full flex justify-center md:justify-end">
-            <div className="aspect-[4/5] w-full max-w-md bg-stone-200 rounded-[2rem] overflow-hidden relative shadow-2xl">
+            <div className="aspect-4/5 w-full max-w-md bg-stone-200 rounded-4xl overflow-hidden relative shadow-2xl">
               <Image
                 src="/images/lobster-pasta.jpg"
                 alt="Lobster pasta"
