@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 
 const navLinks = [
@@ -39,7 +40,26 @@ export default function Header() {
         }`}
       >
         {/* Left side */}
-        <div></div>
+        <div className="justify-start flex items-center gap-2 md:gap-4">
+          <Image
+            src="/images/michelinstar.webp"
+            alt="Michelin Star"
+            width={35}
+            height={35}
+          />
+          <Image
+            src="/images/michelinstar.webp"
+            alt="Michelin Star"
+            width={35}
+            height={35}
+          />
+          <Image
+            src="/images/michelinstar.webp"
+            alt="Michelin Star"
+            width={35}
+            height={35}
+          />
+        </div>
 
         {/* Middle */}
         <div className="text-center font-tangerine">

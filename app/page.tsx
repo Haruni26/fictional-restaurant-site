@@ -63,7 +63,7 @@ export default function Home() {
                     elegance.
                   </p>
                   <p>Ladies: Dressy resort wear to formal evening attire.</p>
-                  <p className="text-neutral-400 text-xs italic mt-1">
+                  <p className="text-neutral-500 underline text-xs italic mt-1">
                     Athletic wear, flip flops, and beachwear are not permitted.
                   </p>
                 </div>
