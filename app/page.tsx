@@ -146,42 +146,41 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Fictional Chef Section */}
-      <section className="bg-[#FAF8F5] py-20 md:py-28 transition-colors duration-500">
+      {/* Chef Section */}
+      <section className="bg-[#527a91] py-20 md:py-28">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
           {/* Text Content */}
           <div className="text-center md:text-left order-2 md:order-1">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-teal-950 mb-6 leading-tight">
-              Message from the Chef
+            <p className="text-xs tracking-[0.25em] uppercase text-amber-300 mb-4">
+              Head Chef
+            </p>
+            <h2 className="text-4xl md:text-5xl font-light tracking-[0.08em] uppercase text-white leading-tight mb-8">
+              From my house, to yours.
             </h2>
-            <p className="text-lg text-neutral-700 leading-relaxed mb-6">
-              Cooking is my passion and stuff
-            </p>
-            <p className="text-lg text-neutral-600 leading-relaxed mb-8">
-              even more Yapping
-            </p>
-
+            <div className="space-y-4 text-base text-white leading-2 mb-10">
+              <p>I grew up and stuff, grandma&apos;s cooking and yeah yeah</p>
+            </div>
             <Link
               href="/about-us"
-              className="inline-block text-sm tracking-[0.25em] uppercase border border-neutral-900 px-8 py-3 text-neutral-900 hover:bg-neutral-900 hover:text-white transition-all duration-300"
+              className="inline-block text-xs tracking-[0.25em] uppercase border border-white/40 px-8 py-3 text-white/80 hover:bg-white hover:text-black transition-all duration-300"
             >
               Meet the Team
             </Link>
           </div>
 
           {/* Need to edit image position and find stock photo */}
-          {/* <div className="order-1 md:order-2 w-full flex justify-center md:justify-end">
-            <div className="aspect-4/5 w-full max-w-md bg-stone-200 rounded-4xl overflow-hidden relative shadow-2xl">
-              <Image
+          <div className="order-1 md:order-2 w-full flex justify-center md:justify-end">
+            <div className="aspect-3/4 w-full max-w-md relative bg-black flex items-center justify-center">
+              {/* <Image
                 src="/images/lobster-pasta.jpg"
                 alt="Lobster pasta"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
                 priority
-              />
+              /> */}
             </div>
-          </div> */}
+          </div>
         </div>
       </section>
     </div>
