@@ -116,15 +116,15 @@ export default function Home() {
                 culinary traditions of the Bahamas. Each dish is a work of local
                 ingredients, timed technique, and industry renowned service.
               </p>
+              {/* Need to fix bottom text */}
               <p>
-                Italian housemade pasta, cracked conch, even fresh lobster.
-                Every dish is created to be savoured.
+                Italian housemade pasta, cracked conch, fresh lobster, Every
+                dish is to be savoured.
               </p>
             </div>
-            {/* Need to fix bottom text and button padding */}
             <Link
               href="/menu"
-              className="inline-block text-sm tracking-[0.25em] uppercase py-4 bg-black text-white rounded-md font-semibold border hover:bg-white hover:border-black hover:text-black hover:shadow-lg transition-all duration-300"
+              className="inline-block text-sm tracking-[0.25em] uppercase py-4 bg-black text-white px-3 rounded-md font-semibold border hover:bg-[#527a91] hover:border-black hover:shadow-lg transition-all duration-300"
             >
               Explore Our Menu
             </Link>
