@@ -79,10 +79,10 @@ export default function Home() {
                 Where the Sea <br className="hidden lg:block" />
                 Meets the Table
               </h2>
-              <div className="space-y-6 text-lg text-neutral-600 leading-[2]">
+              <div className="space-y-6 text-lg text-neutral-600 leading-loose">
                 <p>
                   For centuries, the waters surrounding Paradise Island have
-                  drawn those who seek something beyond the ordinary — a
+                  drawn those who seek something beyond the ordinary. A
                   convergence of sea, sky, and flavor unlike anything found
                   elsewhere on earth.
                 </p>
@@ -98,24 +98,32 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-[#FAF8F5] py-20 md:py-28 transition-colors duration-500">
+      <section className="bg-white py-20 md:py-28">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
           {/* Text Content */}
           <div className="text-center md:text-left order-2 md:order-1">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-teal-950 mb-6 leading-tight">
+            <p className="text-xs tracking-[0.25em] uppercase text-neutral-400 mb-4">
+              The Kitchen
+            </p>
+            <h2 className="text-4xl md:text-5xl font-light tracking-[0.08em] uppercase text-black mb-8 leading-tight">
               Different flavors, <br className="hidden lg:block" /> Right at
               Your Table.
             </h2>
-            <p className="text-lg text-neutral-700 leading-relaxed mb-6">
-              Something inspirational about this fake eating place
-            </p>
-            <p className="text-lg text-neutral-600 leading-relaxed mb-8">
-              More Yapping
-            </p>
-
+            {/* Left Text */}
+            <div className="space-y-4 text-base text-black leading-2 mb-10">
+              <p className="text-lg text-neutral-700 leading-relaxed mb-6">
+                Our michilin star crew draw from the abundant waters, and rich
+                culinary traditions of the Bahamas. Each dish is a work of local
+                ingredients, timed technique, and industry renowned service.
+              </p>
+              <p>
+                Italian housemade pasta, cracked conch, even fresh lobster.
+                Every dish is created to be savoured.
+              </p>
+            </div>
             <Link
-              href="#menu"
-              className="inline-block px-8 py-4 bg-black text-white rounded-md font-semibold tracking-wide border hover:bg-white hover:border-black hover:text-black hover:shadow-lg transition-all duration-300"
+              href="/menu"
+              className="inline-block text-sm tracking-[0.25em] uppercase py-4 bg-black text-white rounded-md font-semibold border hover:bg-white hover:border-black hover:text-black hover:shadow-lg transition-all duration-300"
             >
               Explore Our Menu
             </Link>
@@ -153,8 +161,8 @@ export default function Home() {
             </p>
 
             <Link
-              href="#menu"
-              className="inline-block px-8 py-4 bg-black text-white rounded-md font-semibold tracking-wide border hover:bg-white hover:border-black hover:text-black hover:shadow-lg transition-all duration-300"
+              href="/about-us"
+              className="inline-block text-sm tracking-[0.25em] uppercase py-4"
             >
               Meet the Team
             </Link>
