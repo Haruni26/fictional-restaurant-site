@@ -110,7 +110,7 @@ export default function Home() {
               Your Table.
             </h2>
             {/* Left Text */}
-            <div className="space-y-4 text-base text-black leading-2 mb-10">
+            <div className="space-y-4 text-base text-black leading-relaxed mb-10">
               <p className="text-lg text-neutral-700 leading-relaxed mb-6">
                 Our michilin star crew draw from the abundant waters, and rich
                 culinary traditions of the Bahamas. Each dish is a work of local
@@ -159,11 +159,15 @@ export default function Home() {
             </h2>
 
             {/* Need to finish this */}
-            <div className="space-y-4 text-base text-white leading-2 mb-10">
-              <p>I grew up and stuff, grandma&apos;s cooking and yeah yeah</p>
+            <div className="space-y-4 text-base text-white leading-relaxed mb-10">
+              <p>
+                David Chef is renowned in the culinary world, with three
+                michelin stars, and many awards and accolades. His passion now
+                extends to the Island&apos;s of his family.
+              </p>
             </div>
             <Link
-              href="/about-us"
+              href="/our-story"
               className="inline-block text-xs tracking-[0.25em] uppercase border border-white/40 px-8 py-3 text-white/80 hover:bg-white hover:text-black transition-all duration-300"
             >
               Meet the Team
@@ -173,14 +177,14 @@ export default function Home() {
           {/* Need find stock photo and possibly change placement of image*/}
           <div className="order-1 md:order-2 w-full flex justify-center md:justify-end">
             <div className="aspect-3/4 w-full max-w-md relative bg-black flex items-center justify-center">
-              {/* <Image
-                src="/images/lobster-pasta.jpg"
-                alt="Lobster pasta"
+              <Image
+                src="/images/head-chef.jpg"
+                alt="David Chef"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
                 priority
-              /> */}
+              />
             </div>
           </div>
         </div>
