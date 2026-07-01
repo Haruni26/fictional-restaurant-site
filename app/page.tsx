@@ -157,6 +157,8 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-light tracking-[0.08em] uppercase text-white leading-tight mb-8">
               From my house, to yours.
             </h2>
+
+            {/* Need to finish this */}
             <div className="space-y-4 text-base text-white leading-2 mb-10">
               <p>I grew up and stuff, grandma&apos;s cooking and yeah yeah</p>
             </div>
@@ -168,7 +170,7 @@ export default function Home() {
             </Link>
           </div>
 
-          {/* Need to edit image position and find stock photo */}
+          {/* Need find stock photo and possibly change placement of image*/}
           <div className="order-1 md:order-2 w-full flex justify-center md:justify-end">
             <div className="aspect-3/4 w-full max-w-md relative bg-black flex items-center justify-center">
               {/* <Image
