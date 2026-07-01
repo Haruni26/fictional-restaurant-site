@@ -121,6 +121,7 @@ export default function Home() {
                 Every dish is created to be savoured.
               </p>
             </div>
+            {/* Need to fix bottom text and button padding */}
             <Link
               href="/menu"
               className="inline-block text-sm tracking-[0.25em] uppercase py-4 bg-black text-white rounded-md font-semibold border hover:bg-white hover:border-black hover:text-black hover:shadow-lg transition-all duration-300"
@@ -131,7 +132,7 @@ export default function Home() {
 
           {/* Image Content */}
           <div className="order-1 md:order-2 w-full flex justify-center md:justify-end">
-            <div className="aspect-4/5 w-full max-w-md bg-stone-200 rounded-4xl overflow-hidden relative shadow-2xl">
+            <div className="aspect-3/4 w-full max-w-md overflow-hidden relative shadow-2xl">
               <Image
                 src="/images/lobster-pasta.jpg"
                 alt="Lobster pasta"
@@ -162,7 +163,7 @@ export default function Home() {
 
             <Link
               href="/about-us"
-              className="inline-block text-sm tracking-[0.25em] uppercase py-4"
+              className="inline-block text-sm tracking-[0.25em] uppercase border border-neutral-900 px-8 py-3 text-neutral-900 hover:bg-neutral-900 hover:text-white transition-all duration-300"
             >
               Meet the Team
             </Link>
