@@ -124,7 +124,7 @@ export default function Home() {
             </div>
             <Link
               href="/menu"
-              className="inline-block text-sm tracking-[0.25em] uppercase py-4 bg-black text-white px-3 rounded-md font-semibold border hover:bg-[#527a91] hover:border-black hover:shadow-lg transition-all duration-300"
+              className="inline-block text-sm tracking-[0.25em] uppercase py-4 bg-black text-white px-3 rounded-md font-semibold border hover:bg-[#527a91] hover:border-[#527a91] hover:shadow-lg transition-all duration-300"
             >
               Explore Our Menu
             </Link>
